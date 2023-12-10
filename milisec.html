@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: bisque;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button{
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .stopWatch{
+            font-size: 200px;
+            font-weight: bold;
+        }
+        .mls{
+            font-weight: bold;
+            font-size: 50px;
+        }
+        .xx{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="xx">
+            <div class="stopWatch">00:00:00</div>
+            <div class="mls">000</div>
+        </div>
+        <div>
+            <button class="btn btn-secondary start">Start</button>
+            <button class="btn btn-secondary pause">Pause</button>
+            <button class="btn btn-secondary ctn">Continue</button>
+            <button class="btn btn-secondary restart">Restart</button>
+        </div>
+    </div>
+    <script src="milisec.js"></script>
+</body>
+</html>
